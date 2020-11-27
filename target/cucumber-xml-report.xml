@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="69.736276">
+<testcase classname="Life Insurance quotation on comparethemarket website" name="Completing Life Insurance quotation form" time="69.736276">
+<system-out><![CDATA[Given user is on www.comparethemarket.com/life-insurance/...................passed
+When user clicks on Get a quote.............................................passed
+And user clicks on Just myself for single quote.............................passed
+And user selects relevant title.............................................passed
+And user provides first name................................................passed
+And user provides surname...................................................passed
+And user selects the date of birth..........................................passed
+And user selects relevant smoking option....................................passed
+And user selects relevant cover type........................................passed
+And user provides duration of cover.........................................passed
+And user provides the amount of required cover..............................passed
+And user clicks on critical illness cover...................................passed
+And user clicks on Additional critical illness cover........................passed
+And user provides the amount of additional critical illness cover...........passed
+And user provides email address.............................................passed
+And user provides phone number..............................................passed
+And user provides house number..............................................passed
+And user provides postcode..................................................passed
+And user clicks on Find address.............................................passed
+And user selects on preferred contact.......................................passed
+And user clicks on confirm..................................................passed
+And user clicks on Get your quotes..........................................passed
+And user should be able to see all quotations...............................passed
+And user clicks on remove critical illness cover............................passed
+And user clicks on update result............................................passed
+Then user should be able to see updated quotation...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

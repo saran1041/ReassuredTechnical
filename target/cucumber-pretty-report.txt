@@ -1,0 +1,29 @@
+Feature: Life Insurance quotation on comparethemarket website
+
+  Scenario: Completing Life Insurance quotation form                  [90m# src/test/Resources/LifeInsurance.feature:3[0m
+    [32mGiven [0m[32muser is on www.comparethemarket.com/life-insurance/[0m         [90m# LifeInsuranceSteps.user_is_on_www_comparethemarket_com_life_insurance()[0m
+    [32mWhen [0m[32muser clicks on Get a quote[0m                                   [90m# LifeInsuranceSteps.user_clicks_on_Get_a_quote()[0m
+    [32mAnd [0m[32muser clicks on Just myself for single quote[0m                   [90m# LifeInsuranceSteps.user_clicks_on_Just_myself_for_single_quote()[0m
+    [32mAnd [0m[32muser selects relevant title[0m                                   [90m# LifeInsuranceSteps.user_selects_relevant_title()[0m
+    [32mAnd [0m[32muser provides first name[0m                                      [90m# LifeInsuranceSteps.user_provides_first_name()[0m
+    [32mAnd [0m[32muser provides surname[0m                                         [90m# LifeInsuranceSteps.user_provides_surname()[0m
+    [32mAnd [0m[32muser selects the date of birth[0m                                [90m# LifeInsuranceSteps.user_selects_the_date_of_birth()[0m
+    [32mAnd [0m[32muser selects relevant smoking option[0m                          [90m# LifeInsuranceSteps.user_selects_relevant_smoking_option()[0m
+    [32mAnd [0m[32muser selects relevant cover type[0m                              [90m# LifeInsuranceSteps.user_selects_relevant_cover_type()[0m
+    [32mAnd [0m[32muser provides duration of cover[0m                               [90m# LifeInsuranceSteps.user_provides_duration_of_cover()[0m
+    [32mAnd [0m[32muser provides the amount of required cover[0m                    [90m# LifeInsuranceSteps.user_provides_the_amount_of_required_cover()[0m
+    [32mAnd [0m[32muser clicks on critical illness cover[0m                         [90m# LifeInsuranceSteps.user_clicks_on_critical_illness_cover()[0m
+    [32mAnd [0m[32muser clicks on Additional critical illness cover[0m              [90m# LifeInsuranceSteps.user_clicks_on_Additional_critical_illness_cover()[0m
+    [32mAnd [0m[32muser provides the amount of additional critical illness cover[0m [90m# LifeInsuranceSteps.user_provides_the_amount_of_additional_critical_illness_cover()[0m
+    [32mAnd [0m[32muser provides email address[0m                                   [90m# LifeInsuranceSteps.user_provides_email_address()[0m
+    [32mAnd [0m[32muser provides phone number[0m                                    [90m# LifeInsuranceSteps.user_provides_phone_number()[0m
+    [32mAnd [0m[32muser provides house number[0m                                    [90m# LifeInsuranceSteps.user_provides_house_number()[0m
+    [32mAnd [0m[32muser provides postcode[0m                                        [90m# LifeInsuranceSteps.user_provides_postcode()[0m
+    [32mAnd [0m[32muser clicks on Find address[0m                                   [90m# LifeInsuranceSteps.user_clicks_on_Find_address()[0m
+    [32mAnd [0m[32muser selects on preferred contact[0m                             [90m# LifeInsuranceSteps.user_selects_on_preferred_contact()[0m
+    [32mAnd [0m[32muser clicks on confirm[0m                                        [90m# LifeInsuranceSteps.user_clicks_on_confirm()[0m
+    [32mAnd [0m[32muser clicks on Get your quotes[0m                                [90m# LifeInsuranceSteps.user_clicks_on_Get_your_quotes()[0m
+    [32mAnd [0m[32muser should be able to see all quotations[0m                     [90m# LifeInsuranceSteps.user_should_be_able_to_see_all_quotations()[0m
+    [32mAnd [0m[32muser clicks on remove critical illness cover[0m                  [90m# LifeInsuranceSteps.user_clicks_on_remove_critical_illness_cover()[0m
+    [32mAnd [0m[32muser clicks on update result[0m                                  [90m# LifeInsuranceSteps.user_clicks_on_update_result()[0m
+    [32mThen [0m[32muser should be able to see updated quotation[0m                 [90m# LifeInsuranceSteps.user_should_be_able_to_see_updated_quotation()[0m
